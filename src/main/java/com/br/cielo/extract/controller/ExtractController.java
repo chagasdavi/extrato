@@ -43,6 +43,8 @@ public class ExtractController {
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Retorna todas as transações com sucesso", response = Extract.class),
 			@ApiResponse(code = 500, message = "Caso haja algum erro interno será informado o codigo e a mensagem de erro", response = ResponseError.class),
+			@ApiResponse(code = 401, message = "Caso haja algum erro interno será informado o codigo e a mensagem de erro", response = ResponseError.class),
+			@ApiResponse(code = 403, message = "Caso haja algum erro interno será informado o codigo e a mensagem de erro", response = ResponseError.class),
 			@ApiResponse(code = 404, message = "Caso haja algum erro interno será informado o codigo e a mensagem de erro", response = ResponseError.class)
 
 	})
