@@ -16,15 +16,15 @@
   
   	* Swagger
   
- 	 * Log4j
+ 	* Log4j
   
   	* Maven
   
-	  * Git
+	* Git
   
-	  * Java 8
+	* Java 8
   
-	  * MVC
+	* MVC
 	
 ##### Descrição do Projeto
 	Criar uma API para Extrato de Lançamentos em conta.
