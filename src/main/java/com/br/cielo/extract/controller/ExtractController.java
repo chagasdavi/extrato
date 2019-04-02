@@ -16,7 +16,6 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -48,8 +47,7 @@ public class ExtractController {
 			@ApiResponse(code = 404, message = "Caso haja algum erro interno será informado o codigo e a mensagem de erro", response = ResponseError.class)
 
 	})
-	
-	@CrossOrigin(origins = "http://localhost")
+	 
 	@GetMapping(value = "/extract", produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<Object> viewAllExtract() {
 		ExtractService extracService = new ExtractServiceImpl();
