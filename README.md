@@ -30,6 +30,7 @@
 	Criar uma API para Extrato de Lançamentos em conta.
 	Transformar a informação de um sistema legado em um serviço a ser exposto e consumido por um site/mobile.
   	Aplicação desenvolvida em spring-boot, expor API REST com retorno em JSON.
+	Tratar os possíveis códigos de erro HTTP.
 	
 
 ## Configuração
