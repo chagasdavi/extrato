@@ -38,7 +38,7 @@
 
 ### Geral
 
-	Com o projeto compilado, basta executar a classe ExtractApplication.java localizada no pacote: com.br.cielo.extract
+	Com o projeto compilado, basta executar a classe ExtractApplication.java localizada no pacote: com.br.cielo.extract como Java Application.
 	Se tudo ocorreu bem basta acessar o link do Swagger UI: http://localhost:8080/swagger-ui.html
 
 ##### Autor
