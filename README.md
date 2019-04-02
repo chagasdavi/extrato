@@ -1,45 +1,47 @@
-## Extrato - Projeto teste
+## Extrato - Projeto Back-end
 
-* Visualizar Extrato - API;
+	* Visualizar Extrato no REST/API;
 
 ## Informações
 
 ##### Projeto back-end - tecnologias utilizadas
 	
-  * IDE Eclipse
+  	* IDE Eclipse
   
-  * Spring boot
+  	* Spring boot
   
-  * Spring REST
+  	* Spring Rest
   
-  * Gson
+  	* Gson
   
-  * Swagger
+  	* Swagger
   
-  * Log4j
+ 	 * Log4j
   
-  * Maven
+  	* Maven
   
-  * Git
+	  * Git
   
-  * Java 8
+	  * Java 8
+  
+	  * MVC
 	
 ##### Descrição do Projeto
 	Criar uma API para Extrato de Lançamentos em conta.
 	Transformar a informação de um sistema legado em um serviço a ser exposto e consumido por um site/mobile.
-  Aplicação desenvolvida em spring-boot, expor API REST com retorno em JSON.
+  	Aplicação desenvolvida em spring-boot, expor API REST com retorno em JSON.
 	
 
 ## Configuração
-  Baixar o código fonte e compilar o mesmo no eclipse como maven project.
+  	Baixar o código fonte e compilar o mesmo no eclipse como maven project.
 
 ### Geral
 
-Com o projeto compilado, basta executar a classe ExtractApplication.java localizada no pacote: com.br.cielo.extract
-Se tudo ocorreu bem basta acessar o link do Swagger UI: http://localhost:8080/swagger-ui.html
+	Com o projeto compilado, basta executar a classe ExtractApplication.java localizada no pacote: com.br.cielo.extract
+	Se tudo ocorreu bem basta acessar o link do Swagger UI: http://localhost:8080/swagger-ui.html
 
 ##### Autor
 
-* Davi Pereira Chagas da Silva
-* chagas.davi@gmail.com
-* 01/04/2019
+	* Davi Pereira Chagas da Silva
+	* chagas.davi@gmail.com
+	* 01/04/2019
