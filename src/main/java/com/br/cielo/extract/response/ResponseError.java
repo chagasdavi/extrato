@@ -5,16 +5,12 @@ package com.br.cielo.extract.response;
 
 import java.io.Serializable;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 /**
  * @author dpereira
  * Objeto responsavel por retornar erros no servico rest
  *
  */
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class ResponseError implements Serializable{
 	
 	
