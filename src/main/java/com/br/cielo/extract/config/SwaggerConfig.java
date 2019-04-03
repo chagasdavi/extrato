@@ -40,7 +40,6 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
         .title("API Extrato - Cielo")
         .description("\"API para visualizar o extrato de todas as transações\"")
         .version("1.0.0")
-        .license("Stefanini CO-CREATING SOLUTIONS FOR A BETTER FUTURE")
         .termsOfServiceUrl("Termo de uso: Todos os direitos reservados.")
         .licenseUrl("https://stefanini.com\"")
         .contact(this.contato())
@@ -59,8 +58,8 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
   private Contact contato() {
 	  
 		return new Contact(
-				"Davi Pereira Chagas da Silva em 04/01/2019",
+				"Davi Pereira Chagas da Silva - dpereira - 04/01/2019",
 				"https://www.stefanini.com/", 
-				"t0312dvp@prestadorcbmp.com.br");
+				"dvpsilva9@stefanini.com");
 	}
 }

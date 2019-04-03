@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 
 /**
  * @author dpereira
+ * @since  01/04/2019
  *
  */
 public class TransactionControl implements Serializable{

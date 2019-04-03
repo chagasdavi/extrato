@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 /**
  * @author dpereira
+ * @since 01/04/2019
  * Objeto responsavel por retornar erros no servico rest
  *
  */

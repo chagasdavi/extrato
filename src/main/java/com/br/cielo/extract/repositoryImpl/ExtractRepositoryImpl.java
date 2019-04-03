@@ -11,8 +11,9 @@ import com.br.cielo.extract.repository.ExtractRepository;
 import com.google.gson.Gson;
 
 /**
- * @author dpereira implementação da interface do repositorio(simulando a origem
- *         da massa no banco de dados) de Extract
+ * @author dpereira 
+ * @since  01/04/2019
+ * implementação da interface do repositorio(simulando a origem da massa no banco de dados) de Extract
  *
  */
 public class ExtractRepositoryImpl implements ExtractRepository {
