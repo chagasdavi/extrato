@@ -28,5 +28,35 @@ public class ExtractServiceImpl implements ExtractService {
 		extractRepository = new ExtractRepositoryImpl();
 		return extractRepository.viewExtract();
 	}
+	
+	/*private ExtractDTO viewExtract(Extract extract){
+		ExtractDTO extractDTO = new ExtractDTO();
+		extractDTO.setIndice(extract.getIndice());
+		extractDTO.setTamanhoPagina(extract.getTamanhoPagina());
+		extractDTO.setTotalControleLancamento(extract.getTotalControleLancamento());
+		extractDTO.setTotalElements(extract.getTotalElements());
+		
+		
+		for (TransactionAccount rs : extract.getListaControleLancamento()) {
+			TransactionAccountDTO transactionAccountDTO = new TransactionAccountDTO();
+			transactionAccountDTO.setDataEfetivaLancamento(UtilDateFormat.covertStringToDate(rs.getDataEfetivaLancamento()));
+			transactionAccountDTO.setDataLancamentoContaCorrenteCliente(UtilDateFormat.covertStringToDate(rs.getDataLancamentoContaCorrenteCliente()));
+			transactionAccountDTO.setCodigoIdentificadorUnico(rs.getCodigoIdentificadorUnico());
+			transactionAccountDTO.setDateEfetivaLancamento(rs.getDateEfetivaLancamento());
+			transactionAccountDTO.setDateLancamentoContaCorrenteCliente(rs.getDateLancamentoContaCorrenteCliente());
+			transactionAccountDTO.setDescricaoGrupoPagamento(rs.getDescricaoGrupoPagamento());
+			transactionAccountDTO.setLancamentoContaCorrenteCliente(rs.getLancamentoContaCorrenteCliente());
+			transactionAccountDTO.setNomeBanco(rs.getNomeBanco());
+			transactionAccountDTO.setNumeroEvento(rs.getNumeroEvento());
+			transactionAccountDTO.setNumeroRaizCNPJ(rs.getNumeroRaizCNPJ());
+			transactionAccountDTO.setNumeroSufixoCNPJ(rs.getNumeroSufixoCNPJ());
+			transactionAccountDTO.setQuantidadeLancamentoRemessa(rs.getQuantidadeLancamentoRemessa());
+			transactionAccountDTO.setValorLancamentoRemessa(rs.getValorLancamentoRemessa());
+			extractDTO.getListaControleLancamento().add(transactionAccountDTO);
+			
+		}
+		
+		return extractDTO;
+	}*/
 
 }

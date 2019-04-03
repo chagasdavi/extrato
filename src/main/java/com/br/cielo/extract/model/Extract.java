@@ -7,9 +7,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-
 
 /**
  * @author dpereira
@@ -18,8 +15,6 @@ import lombok.NoArgsConstructor;
  *
  */
 
-@AllArgsConstructor
-@NoArgsConstructor
 public class Extract implements Serializable{
 	
 	private static final long serialVersionUID = 1L;

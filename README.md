@@ -45,4 +45,5 @@
 
 	* Davi Pereira Chagas da Silva
 	* chagas.davi@gmail.com
+	* dpereira - Java Doc
 	* 01/04/2019

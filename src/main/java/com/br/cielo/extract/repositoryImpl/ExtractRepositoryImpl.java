@@ -37,7 +37,7 @@ public class ExtractRepositoryImpl implements ExtractRepository {
 		 * Obtem a massa de dados do arquivo(JSON) para o objeto Extract
 		 */
 		Extract extract = gson.fromJson(sb.toString().trim(), Extract.class);
-
+		
 		return extract;
 
 	}
